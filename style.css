@@ -591,6 +591,9 @@ header{
    text-align: center;
    line-height: 1.5rem;
  }
+ .msection{
+  margin-bottom: 12rem;
+ }
 .mgrid{
   display: grid;
   grid-template-columns: 1fr;
@@ -606,11 +609,12 @@ header{
   display: grid;
   grid-column: 1 /span 1 ;
   width: 100%;
-     margin-bottom: 6rem;
+  margin-bottom: 6rem;
  }
 .main-class{
     width: 100%;
-       margin-bottom: 6rem;
+    margin-bottom: 6rem;
+    
 }
 .btn{
     display: block;
@@ -621,11 +625,15 @@ header{
       background-color: #ed563b;
       border:none;
       padding: 0.9rem 2.25rem;
+
    }
    .schedule{
     height: auto;
-    margin-top: 15rem;
+    margin-top: 20rem;
 
+   }
+   .program{
+    margin-top: 2rem;
    }
    .filters{
     width: 100%;
