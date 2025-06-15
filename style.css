@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: "Poppins", sans-serif;
+ }
+
+ .container{
+    width: min(90% , 1120px);
+    margin-inline: auto;
+    height: 100%;
+ }
+ header{
+    height: 5rem;
+      background: linear-gradient(rgba(80, 90, 100,0.9)) ;
+    border: solid 1px  rgba(80, 90, 100,0.9);
+    box-shadow: 1px 1px rgba(80, 90, 100,0.9);
+    position: sticky;
+    top:0;
+ }
+ .yellow{
+   color: #ed563b;
+ }
+ .menus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .menus h1{
+   color: white;
+ }
+ .menus-link {
+    display: flex;
+    
+
+ }
+ .menus-link li{
+    list-style: none;
+    padding: 1rem;
+ }
+   .menus-link li a{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    /* font-size: 1rem; */
+ }
+  .menus-link li a:hover{
+   color: #ed563b;
+  }
+  .menus-link .btn{
+   background-color: #ed563b;
+   color: white;
+   padding: 0.1rem 0.6rem;
+   border:none;
+  }
+  .humberger{
+    display: none;
+  }
+  .phone-link{
+    display: none;
+  }
+
+
+   .hero .backgr{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   z-index: -1;
+   height: 100%;
+   width: 100vw;
+   object-fit: cover;
+ 
+  }
+
+ .hero{
+ height: calc(100vh - 5rem);
+ background: linear-gradient(rgba(35, 45, 57, 0.8)) ;
+ display: flex;
+ }
+
+ .hero .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+ }
+ .hero .hero-text p{
+   font-size: 1.125rem;
+   font-weight: 800;
+   line-height: 1.65rem;
+   text-transform: uppercase;
+   color: white;
+ }
+  .hero .hero-text h1{
+   font-weight: 800;
+   font-size:5.2rem;
+   line-height: 6.3125rem;
+   text-transform: uppercase;
+   color: white;
+  }
+    .btn{
+      font-weight: 400;
+      font-size: 0.95rem;
+      color: white;
+      text-transform: uppercase;
+      background-color: #ed563b;
+      border:none;
+      padding: 0.9rem 1.25rem;
+   }
+
+.choose-program{
+      height: 35vh;
+     display: flex;
+   }
+   .program {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1.3rem;
+   
+   }
+   .program p{
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.56rem;
+      color: #7a7a7a;
+   }
+   .program h2{
+      font-size: 1.75rem;
+      line-height: 1.56rem;
+      color:black;
+   }
+
+     .basic-fitness{
+      height: calc(100vh - 5rem);
+      margin-block: 2rem;
+
+   }
+  .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 1rem;
+   }
+   .blogs{
+      display: flex;
+      gap: 1rem;
+     
+   }
+    .blogs img{
+      height: 65%;
+    }
+
+    .blogs .basic-text h3{
+      font-size: 1.120rem;
+      font-weight: 600;
+      color: #232d39;
+    }
+    .blogs .basic-text p{
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: #7a7a7a;
+    }
+    .blogs .basic-text a{
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: #ed563b;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+    .blue{
+      color: #0056b3;
+    }
+    .think{
+      height: calc(90vh - 5rem);
+      display: flex;
+      background: url('	https://templatemo.com/templates/templatemo_548_training_studio/assets/images/cta-bg.jpg');
+      color: white;
+      margin-bottom: 3rem;
+    }
+    .think .think-text{
+     display: flex;
+     flex-direction: column;
+     gap:1rem;
+     justify-content: center;
+     align-items: center;
+    }
+ .think-text h2{
+   font-size:3.2rem ;
+   font-weight: 800;
+   color: white;
+   line-height: 2.658rem;
+   text-transform: uppercase;
+ }
+ .think-text p{
+   font-size:1rem ;
+   font-weight: 400;
+   color: white;
+   text-align: center;
+   line-height: 1.5rem;
+ }
+
+ .msection{
+  height: 90vh;
+  margin-bottom: 6rem;
+ }
+
+ .mgrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+ }
+.class{
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+}
+.fclass{
+  display: flex;
+  align-items: center;
+  border:none;
+  box-shadow: 3px 3px 5px  rgba(32, 31, 31,0.3);
+  margin:1rem ;
+  padding: 1.5rem 1.4rem;
+  gap:1rem; 
+  border-radius: 6px;
+ 
+}
+.fclass a{
+  text-decoration: none;
+}
+.fclass a h3{
+  color:#232d39;
+  font-size: 1.150rem;
+  font-weight: 600;
+}
+
+.fclass a h3:hover{
+  color: #ed563b;
+}
+.kalar{
+  background-color: #ed563b;
+}
+.kalar a h3{
+color: white;
+}
+.kalar a h3:hover{
+  color: white;
+  background-color: #ed563b;
+}
+ .ftraining{
+  display: grid;
+  grid-column: 2/span 2 ;
+  width: 100%;
+ }
+ .main-class{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+ }
+ .main-class img{
+  width: 100%;
+ }
+ .main-class button{
+  width:23%;
+ }
+ .main-class h2{
+  font-weight: 700;
+  font-size: 1.4375rem;
+  color:#232d39;
+ }
+ .main-class p{
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgb(122, 122, 122);
+ }
+
+  .schedule{
+  padding-block: 2rem;
+  height: auto;
+  background:url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/schedule-bg.jpg');
+  margin-bottom: 4rem;
+ }
+  h2 span{
+    color: white;
+  }
+  #program-text{
+    color: white;
+  }
+ .filters{
+  display: flex;
+justify-content: center;
+ }
+ .filters ul {
+  display: flex;
+  flex-direction: row;
+  
+ }
+ .filters ul li {
+  list-style: none;
+ }
+ .filters ul li a{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+
+ }
+  .filters ul li a:hover{
+    color: #ed563b;
+  }
+ .geele{
+    margin-left: 7rem;
+ }
+ table{
+display: table-row;
+  color: white;
+  border:solid 1px white;
+   border-collapse: collapse;
+ }
+ tr{
+  color:white;
+  border-collapse: collapse;
+ }
+
+ td{
+    border: 1px solid rgb(234, 231, 231);
+  border-collapse: collapse;
+  padding: 2.5rem 3rem;
+  text-align: center;
+ }
+
+
+ .trainers{
+  display: flex;
+  gap:1.5rem;
+
+  
+ }
+ .trainer{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  border-radius: 8px;
+  border:solid 1px rgba(5, 5, 5,0.1);
+  box-shadow: 2px 2px 4px  rgba(5, 5, 5,0.2);
+ }
+ .trainer a {
+  text-decoration: none;
+  color: #ed563b;
+  font-weight: 500;
+  font-size:0.85rem ;
+ }
+ .trainer h2{
+  font-weight: 600;
+  font-size:1.25rem ;
+  color: #232d39;
+ }
+ .trainer p{
+  font-weight: 400;
+  font-size:0.9rem ;
+  color: #7a7a7a;
+  text-align:start;
+ }
+ .brands{
+  display: flex;
+
+ }
+ .brands ul{
+  display: flex;
+ }
+ .brands ul li{
+  list-style: none;
+  padding: 0.5rem;
+ }
+  .brands ul li a i:hover{
+    color: #ed563b;
+  }
+ .brands ul li a i{
+  color: black;
+  font-size: 1rem;
+ }
+
+ .maps{
+  height: 90vh;
+  margin-top: 5rem;
+
+ }
+ #grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ form{
+  background: url('https://templatemo.com/templates/templatemo_548_training_studio/assets/images/contact-bg.jpg') center/cover no-repeat;
+  background-color: white;
+  gap: 2rem;
+  padding-inline: 2.5rem;
+ }
+ input, textarea,.form-btn{
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+ }
+ #name{
+  width:180px ;
+ }
+ #subject{
+  display: inline-block;
+  width: 392.333px;
+ }
+ #message{
+  height: 140px;
+  width: 392.333px;
+  border: none;
+ }
+  footer{
+  height: 4rem;
+  width: 100wv;
+ }
+ footer p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+
+  @media (max-width:768px){
+  .menus-link{
+    display: none;
+  }
+  .menus{
+    background-color: white;
+    width: 100%;
+  }
+  .menus h1{
+    color: black;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+   
+  }
+header{
+        display: block;
+        background-color:white !important ;
+    }
+
+    i {
+        z-index: 11111;
+    }
+    .phone-link[ data-visible="false"]{
+        transform: translateY(100%);
+    }
+    .humberger i[ data-visible="false"]{
+        display: none;
+    }
+    .humberger i[ data-visible="true"]{
+        display: block;
+    }
+    .humberger {
+        display: flex;
+        background-color:white; 
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 28%;
+        right: 5%;
+        font-size: 2rem;
+        color: black;
+    
+      
+    }
+     .phone-link{
+      display: flex;
+    position: fixed;
+    inset: 0 0;
+     flex-direction: column;
+     background-color: #f7f7f7;
+     /* justify-content: center; */
+     align-items: center;
+     color: black;
+     gap: 2rem;
+     transform: translateY(0%);
+     transition: 350ms ease-in;
+     width: 100%;
+     margin-top: 5rem;
+    }
+    .phone-link li{
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      border:1px solid black;
+      text-align: center;
+      align-items: center;
+      width: 80%;
+    }
+     .phone-link li a{
+       display: flex;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+     }
+      .phone-link li a:hover{
+  color: #ed563b;
+      }
+     .phone-link button{
+      background-color: #ed563b;
+   color: white;
+   padding: 1rem 1.5rem;
+   border:none;
+   text-align: center;
+   width: 80%;
+
+     }
+ 
+    .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    gap: 2.5rem;
+    
+ }
+ .hero .hero-text p{
+   font-size: 1.125rem;
+   font-weight: 800;
+   line-height: 1.375rem;
+   text-transform: uppercase;
+   color: white;
+   gap: 1rem;
+ }
+  .hero .hero-text h1{
+   font-weight: 800;
+   font-size:4.6rem;
+   line-height: 4.8125rem;
+   text-transform: uppercase;
+   color: white;
+   text-align: center;
+  }
+    .main-class button{
+      font-weight: 400;
+      font-size: 0.95rem;
+      color: white;
+      text-transform: uppercase;
+      background-color: #ed563b;
+      border:none;
+      padding: 0.9rem 3rem;
+      width: 60%;
+   }
+   .grid{
+      display: grid;
+      grid-template-columns:  1fr ;
+      gap: 1rem;
+      margin-bottom: 10rem;
+   }
+    .blogs img{
+      height: 78%;
+    }
+   
+    .think{
+        height: 60vh;
+        margin-block: 6rem;
+    }
+    .think-text h2{
+   font-size:2.25rem ;
+   font-weight: 800;
+   color: white;
+   line-height: 2.658rem;
+   text-transform: uppercase;
+   text-align: center;
+ }
+ .think-text p{
+   font-size:1rem ;
+   font-weight: 400;
+   color: white;
+   text-align: center;
+   line-height: 1.5rem;
+ }
+.mgrid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+   margin-bottom: 6rem;
+ }
+    .class, .ftraining{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+.ftraining{
+  display: grid;
+  grid-column: 1 /span 1 ;
+  width: 100%;
+     margin-bottom: 6rem;
+ }
+.main-class{
+    width: 100%;
+       margin-bottom: 6rem;
+}
+.btn{
+    display: block;
+      font-weight: 400;
+      font-size: 0.95rem;
+      color: white;
+      text-transform: uppercase;
+      background-color: #ed563b;
+      border:none;
+      padding: 0.9rem 2.25rem;
+   }
+   .schedule{
+    height: auto;
+    margin-top: 15rem;
+
+   }
+   .filters{
+    width: 100%;
+   }
+  .filters{
+  display: flex;
+justify-content: center;
+ }
+ .filters ul {
+  display: flex;
+
+  
+ }
+ .filters ul li {
+  list-style: none;
+ }
+ .filters ul li a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  padding: 0.1rem;
+  text-align: center;
+
+ }
+  .filters ul li a:hover{
+    color: #ed563b;
+  }
+ .geele{
+    margin-inline: 1rem;
+ }
+ table{
+  width: 100%;
+display: table-row;
+  color: white;
+  border:solid 1px white;
+   border-collapse: collapse;
+ }
+ tr{
+  color:white;
+  border-collapse: collapse;
+ }
+
+ td{
+    border: 1px solid rgb(234, 231, 231);
+  border-collapse: collapse;
+  padding: 1rem 1.25rem;
+  text-align: center;
+ }
+
+ .trainers{
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+.maps{
+  height: 95vh;
+   width: 100%;
+   margin-block: 5rem;
+}
+  #grid{
+  
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ #grid iframe,form{
+  width: 100%;
+ }
+ #name{
+  height: 40px;
+   width:100%;
+ }
+ #subject{
+  height: 40px;
+   width:100%;
+ }
+ #message{
+   height: 140px;
+   width:100%;
+  border: none;
+ }
+footer{
+  display: none;
+}
+
+
+ }
