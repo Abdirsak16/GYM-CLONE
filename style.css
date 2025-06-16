@@ -663,6 +663,7 @@ justify-content: center;
   }
  .geele{
     margin-inline: 1rem;
+    width: 100vw;
  }
  table{
   width: 100%;
@@ -689,16 +690,21 @@ display: table-row;
  }
 .maps{
   height: 95vh;
-   width: 100%;
+   width: 100vw;
    margin-block: 5rem;
+
 }
+
   #grid{
-  
-  display: grid;
-  grid-template-columns: 1fr;
- }
- #grid iframe,form{
+  display: flex;
+  flex-direction: row;
   width: 100%;
+ }
+form{
+  width: 100%;
+ }
+ iframe{
+  width: auto;
  }
  #name{
   height: 40px;
