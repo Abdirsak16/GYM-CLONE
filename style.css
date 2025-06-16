@@ -662,8 +662,8 @@ justify-content: center;
     color: #ed563b;
   }
  .geele{
-    margin-inline: 1rem;
-    width: 100vw;
+    margin-inline: 0.5rem;
+    width: 100%;
  }
  table{
   width: 100%;
@@ -678,9 +678,9 @@ display: table-row;
  }
 
  td{
-    border: 1px solid rgb(234, 231, 231);
+  border: 1px solid rgb(234, 231, 231);
   border-collapse: collapse;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.2rem;
   text-align: center;
  }
 
@@ -697,15 +697,14 @@ display: table-row;
 
   #grid{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
  }
-form{
+form,iframe{
+  width: 100%;
   width: 100%;
  }
- iframe{
-  width: auto;
- }
+ 
  #name{
   height: 40px;
    width:100%;
