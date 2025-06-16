@@ -671,6 +671,7 @@ display: table-row;
   color: white;
   border:solid 1px white;
    border-collapse: collapse;
+   font-size: 0.75rem;
  }
  tr{
   color:white;
@@ -698,7 +699,7 @@ display: table-row;
   #grid{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 98%;
  }
 form,iframe{
   width: 100%;
